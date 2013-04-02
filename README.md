@@ -25,3 +25,8 @@ To the best extent feasible, this test code should run successfully under the fo
 * commotion-mesh-applet package for GNOME/MATE/Cinnamon
 * Mesh Testher Android app
 * Commotion-OpenWRT DR1 firmware
+
+__author__ Ben West (ben@gowasabi.net)<br/>
+__version__ 0.1<br/>
+__copyright__ Creative Commons BY-NC-SA v3.0<br/>
+__license__ GPL v3<br/>
