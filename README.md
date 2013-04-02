@@ -4,9 +4,10 @@ commotion-tests-core
 This repo is a cross-platform Python implementation of test vectors for the Commotion Wireless packages, minus any platform-specific packaging.  This repo is intended to be included as a submodule in other repos that contain the platform-specific packaging and environment.
 
 The test vectors are described in the wiki pages below:
-https://code.commotionwireless.net/projects/commotion/wiki/Testing#Mesh-Routing-Tech-Evaluations
-https://code.commotionwireless.net/projects/commotion/wiki/Testing#Testbed-Requirements-based-on-test-suite-defined-above
-https://code.commotionwireless.net/projects/commotion/wiki/Testing#Release-Candidate-Test-Regimen
+
+* https://code.commotionwireless.net/projects/commotion/wiki/Testing#Mesh-Routing-Tech-Evaluations
+* https://code.commotionwireless.net/projects/commotion/wiki/Testing#Testbed-Requirements-based-on-test-suite-defined-above
+* https://code.commotionwireless.net/projects/commotion/wiki/Testing#Release-Candidate-Test-Regimen
 
 To launch the tests manually, have your Python intepreter execute either of the scripts in this directory, depending on your platform.
 
