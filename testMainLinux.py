@@ -59,7 +59,7 @@ if __name__ == '__main__':
   runner = unittest.TextTestRunner(stream=tee,verbosity=2)
   connectivitySuite = connectivityTests.suite()
   olsrSuite = olsrTests.suite()
-  #runner.run (connectivitySuite)
+  runner.run (connectivitySuite)
   runner.run (olsrSuite)
 
   #Write testOutput somewhere meaningful, if desired
