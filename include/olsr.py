@@ -73,7 +73,7 @@ class OlsrTest (unittest.TestCase):
                         self.fail('found no OLSR links')
         else:
             if (len(self.routes['routes']) == 0):
-                self.fail('found not OLSR routes')
+                self.fail('found no OLSR routes')
 
 def suite():
     """ Define tests for this suite """
