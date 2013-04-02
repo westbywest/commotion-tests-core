@@ -60,8 +60,6 @@ class OlsrTest (unittest.TestCase):
         # Use assertNotEqual for Python 2.6 compatibility
         self.assertNotEqual(self.links, None, "couldn't retreive OLSRd links")
         self.assertNotEqual(self.routes, None, "couldn't retreive OLSRd routes")
-        print 'links=' + str(self.links['links'])
-        print 'routes=' + str(self.routes['routes'])
         # Verify next hop exists and good link quality
 	for self.route in self.routes['routes']:
             if self.route['destination'] == '0.0.0.0':
